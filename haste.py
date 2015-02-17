@@ -29,11 +29,10 @@ def haste(word, word_eol, userdata):
 	if(len(word) > 1):
 		del word[0]
 		data = " ".join(word)
-		print(data);
 		f = urllib2.urlopen('http://hastebin.com/documents', data)
-		q = f.read()
+		q = json.loads(f.read())
 		if(len(q) > 1):
-			print("http://hastebin.com/"+q)
+			print("http://hastebin.com/"+q['key'])
 			return hexchat.EAT_ALL
 		else:
 			return hexchat.EAT_ALL
