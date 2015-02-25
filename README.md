@@ -34,5 +34,6 @@ Usage: `/short <url>` where `<url>` is a url.
 
 
 
-# Found a bug?
-Report them [here](https://github.com/Sven65/addons/issues)!
+[Found a bug?](https://github.com/Sven65/addons/issues)!
+
+Want a custom plugin? Submit a issue starting with [Request] In the title [here](https://github.com/Sven65/addons/issues)!
