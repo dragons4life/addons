@@ -1,6 +1,8 @@
 # Addons
 Welcome! Here's where I put my own hexchat plugins.
 
+[![badge](https://img.shields.io/badge/license-Apache%202-blue.svg)]
+
 -----
 
 # Documentation
